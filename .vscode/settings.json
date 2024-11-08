@@ -1,0 +1,47 @@
+{
+  // 顯示/介面
+  "workbench.colorTheme": "One Dark Pro", // 設定主題
+  "editor.fontSize": 14, // 編輯器字型大小
+  "editor.lineHeight": 22, // 行高
+  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace", // 字體
+  "editor.cursorBlinking": "smooth", // 游標閃爍效果
+  "editor.cursorSmoothCaretAnimation": "on", // 游標移動時的平滑動畫
+  "editor.minimap.enabled": true, // 是否顯示右側的縮略圖（minimap）
+  "editor.wordWrap": "on", // 啟用自動換行
+  "workbench.iconTheme": "vscode-icons", // 設定檔案圖標主題
+
+  // 檔案與自動儲存
+  "files.autoSave": "afterDelay", // 延遲自動儲存
+  "files.autoSaveDelay": 1000, // 1秒後自動儲存
+  "files.trimTrailingWhitespace": true, // 儲存時移除行尾多餘的空白
+  "files.insertFinalNewline": true, // 儲存時自動在檔案末尾新增換行
+  "explorer.confirmDelete": false, // 刪除檔案時不彈出確認對話框
+
+  // Terminal
+  "terminal.integrated.fontSize": 14, // Terminal 字型大小
+  "terminal.integrated.fontFamily": "Fira Code, monospace", // Terminal 字體
+  "terminal.integrated.cursorBlinking": true, // Terminal 游標閃爍
+  "terminal.integrated.scrollback": 10000, // Terminal 保留的捲動歷史記錄
+
+  // 格式化
+  "editor.formatOnSave": true, // 儲存時自動格式化程式碼
+  "editor.formatOnPaste": true, // 貼上程式碼時自動格式化
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // 預設格式化工具為 Prettier
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // 為 JavaScript 檔案使用 Prettier
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // 為 JSON 檔案使用 Prettier
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // 為 HTML 檔案使用 Prettier
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // 為 CSS 檔案使用 Prettier
+  },
+
+  // Prisma
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma" // Prisma 格式化工具
+  }
+}
